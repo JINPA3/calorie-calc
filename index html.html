@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 25.2.3.2 (Linux)"/>
+	<meta name="author" content="서울_커뮤니케이션사업부"/>
+	<meta name="created" content="2025-06-25T07:29:00"/>
+	<meta name="changedby" content="서울_커뮤니케이션사업부"/>
+	<meta name="changed" content="2025-06-25T07:30:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin-left: 1in; margin-right: 1in; margin-top: 1.18in; margin-bottom: 1in }
+		p { direction: ltr; margin-bottom: 0.1in; widows: 0; orphans: 0; text-align: left; line-height: 115%; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p style="margin-bottom: 0.11in; line-height: 100%">
+&lt;!DOCTYPE html&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">&lt;html
+lang=&quot;ko&quot;&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">&lt;head&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;meta
+charset=&quot;UTF-8&quot;&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;title&gt;<font face="맑은 고딕"><span lang="ko-KR">칼로리
+계산기</span></font>&lt;/title&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;style&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    body {
+font-family: sans-serif; padding: 2rem; }</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    input, select
+{ padding: 0.5rem; margin: 0.5rem; }</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    .result {
+font-size: 1.2rem; margin-top: 1rem; }</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;/style&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">&lt;/head&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">&lt;body&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;h2&gt;<font face="맑은 고딕"><span lang="ko-KR">칼로리
+계산기</span></font>&lt;/h2&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;label
+for=&quot;food&quot;&gt;<font face="맑은 고딕"><span lang="ko-KR">음식
+선택</span></font>:&lt;/label&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;select
+id=&quot;food&quot;&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    &lt;option
+value=&quot;0&quot;&gt;-- <font face="맑은 고딕"><span lang="ko-KR">선택
+</span></font>--&lt;/option&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    &lt;option
+value=&quot;<font face="맑은 고딕"><span lang="ko-KR">닭가슴살</span></font>&quot;
+data-cal=&quot;165&quot;&gt;<font face="맑은 고딕"><span lang="ko-KR">닭가슴살
+</span></font>(100g <font face="맑은 고딕"><span lang="ko-KR">기준</span></font>,
+165kcal)&lt;/option&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    &lt;option
+value=&quot;<font face="맑은 고딕"><span lang="ko-KR">고구마</span></font>&quot;
+data-cal=&quot;120&quot;&gt;<font face="맑은 고딕"><span lang="ko-KR">고구마
+</span></font>(100g <font face="맑은 고딕"><span lang="ko-KR">기준</span></font>,
+120kcal)&lt;/option&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    &lt;option
+value=&quot;<font face="맑은 고딕"><span lang="ko-KR">계란</span></font>&quot;
+data-cal=&quot;140&quot;&gt;<font face="맑은 고딕"><span lang="ko-KR">계란
+</span></font>(100g <font face="맑은 고딕"><span lang="ko-KR">기준</span></font>,
+140kcal)&lt;/option&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    &lt;option
+value=&quot;<font face="맑은 고딕"><span lang="ko-KR">바나나</span></font>&quot;
+data-cal=&quot;89&quot;&gt;<font face="맑은 고딕"><span lang="ko-KR">바나나
+</span></font>(100g <font face="맑은 고딕"><span lang="ko-KR">기준</span></font>,
+89kcal)&lt;/option&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;/select&gt;&lt;br&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;label
+for=&quot;gram&quot;&gt;<font face="맑은 고딕"><span lang="ko-KR">섭취량</span></font>(g):&lt;/label&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;input
+type=&quot;number&quot; id=&quot;gram&quot; placeholder=&quot;<font face="맑은 고딕"><span lang="ko-KR">예</span></font>:
+150&quot;&gt;&lt;br&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;button
+onclick=&quot;calculate()&quot;&gt;<font face="맑은 고딕"><span lang="ko-KR">칼로리
+계산</span></font>&lt;/button&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;div
+class=&quot;result&quot; id=&quot;result&quot;&gt;&lt;/div&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;script&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    function
+calculate() {</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">      const food
+= document.getElementById(&quot;food&quot;);</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">      const gram
+= parseFloat(document.getElementById(&quot;gram&quot;).value);</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">      const
+kcalPer100g =
+parseFloat(food.options[food.selectedIndex].dataset.cal);</p>
+<p style="margin-bottom: 0.11in; line-height: 100%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">      if
+(isNaN(gram) || kcalPer100g === 0) {</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">       
+document.getElementById(&quot;result&quot;).innerHTML = &quot;<font face="맑은 고딕"><span lang="ko-KR">음식과
+섭취량을 정확히 입력하세요</span></font>.&quot;;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">        return;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">      }</p>
+<p style="margin-bottom: 0.11in; line-height: 100%"><br/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">      const total
+= (gram / 100) * kcalPer100g;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">     
+document.getElementById(&quot;result&quot;).innerHTML = 
+</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">        `<font face="맑은 고딕"><span lang="ko-KR">총
+섭취 칼로리는 </span></font>&lt;strong&gt;${total.toFixed(1)}
+kcal&lt;/strong&gt;<font face="맑은 고딕"><span lang="ko-KR">입니다</span></font>.`;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">    }</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">  &lt;/script&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">&lt;/body&gt;</p>
+<p style="margin-bottom: 0.11in; line-height: 100%">&lt;/html&gt;</p>
+</body>
+</html>
